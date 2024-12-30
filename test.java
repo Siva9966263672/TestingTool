@@ -13,7 +13,7 @@ public class launch {
   Thread.sleep(3000);
   driver.get("https://www.facebook.com/");
   //.sendKeys - is to input the text in "username/password fields"
-  driver.findElement(By.id("email")).sendKeys("praveen.rekha96@gmail.com");
+  driver.findElement(By.id("email")).sendKeys("surya86@gmail.com");
   Thread.sleep(6000);
   driver.findElement(By.name("pass")).sendKeys("nit@369");
   Thread.sleep(8000);
@@ -24,9 +24,9 @@ public class launch {
      Thread.sleep(20000);
      driver.findElement(By.id("createAccountSubmit")).click();
      Thread.sleep(6000);
-      driver.findElement(By.xpath(" WebElement YourName = driver.findElement(null)")).sendKeys("praveenrekha");
+      driver.findElement(By.xpath(" WebElement YourName = driver.findElement(null)")).sendKeys("suryareddy");
      //Thread.sleep(7000);
-     //fn.sendKeys("praveenrekha");
+     //fn.sendKeys("siva");
     // Thread.sleep(8000);
      
      //fn.clear();
@@ -35,7 +35,7 @@ public class launch {
      //Thread.sleep(10000);
      driver.findElement(By.id("ap_phone_number")).sendKeys("9866536428");
      Thread.sleep(110000);
-     driver.findElement(By.name("password")).sendKeys("praveen@369");
+     driver.findElement(By.name("password")).sendKeys("siva@369");
      Thread.sleep(80000);
      driver.findElement(By.className("a-button-input")).click();
   //driver.manage().window().minimize();
